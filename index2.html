@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="para1">This is a random text</p>
+        <p id="para2">This is the extra paragraph(HIDE)</p>
+        <button type="button" onclick="hideme()"> HIDE </button>
+        <button type="button" onclick="showme()"> SHOW </button>
+    </body>
+    <script>
+        function hideme()
+        {
+            document.getElementById("para2").style.display="none";
+        }
+        function showme()
+        {
+            document.getElementById("para2").style.display="block";
+        }
+    </script>
+</html>

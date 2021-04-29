@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- this is an example -->
+        <button type="button" onclick="sampleconst()"> sampleconst </button>
+    </body>
+    <script>
+        function sampleconst()
+        {
+            var x= 10;
+            {
+                var x=7;
+                console.log(" inside inner block x = " + x);
+            }
+            console.log("Outside block x = " + x);
+        }
+    </script>
+</html>
